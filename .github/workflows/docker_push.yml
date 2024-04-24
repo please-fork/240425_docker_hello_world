@@ -2,7 +2,10 @@ name: Docker Push
 
 on:
   push:
-    branches: [main]
+    branches:
+        - main
+    paths-ignore:
+        - 'README.md'
   workflow_dispatch:
 
 jobs:
