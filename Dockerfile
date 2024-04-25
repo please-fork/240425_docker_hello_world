@@ -1,2 +1,2 @@
 FROM alpine
-CMD ["echo", "Hello Docker!"]
+CMD ["echo", "Hello k8s!"]
